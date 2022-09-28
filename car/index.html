@@ -1,22 +1,15 @@
 <html>
-    <head>
-        <script>
-            function changeBrand() {
-                //change brand name of h1
-                document.getElementById("brand").innerHTML = "MEJORA TU BMW HACIA UN HONDA";
-            }
-        </script>
-    </head>
     <body>
-        <h1 id="brand">MEJORA TU BMW HACIA UN LAMBO</h1>
-        <button onclick="changeBrand()"> CAMBIAR TITULO </button>
+        <h1 id="demo">MEJORA TU BMW HACIA UN LAMBO</h1>
+        <button onclick="myFunction()"> CAMBIAR TITULO </button>
 
         <p>PUEDES OBTENER LO QUE DESEAS</p>
         <p>LA DECISION ESTA EN TI</p>
-        
+
         <button onclick="document.getElementById('bmw').src='bmw-car.gif'">VUELVE AL PASADO</button>
         <img id="bmw" src="bmw-car.gif" style="width:300px">
         <button onclick="document.getElementById('bmw').src='lambo.gif'">EL CAMBIO ES AHORA</button>
+        <script src="https://www.w3schools.com/js/myScript.js"></script>
 
     </body>
 </html>
