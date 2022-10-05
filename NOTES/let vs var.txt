@@ -1,0 +1,18 @@
+Which is more efficient to use?
+
+Main differences 
+
+
+
+Keword const
+The keyword const is a little misleading.
+It does not define a constant value. It defines a **constant reference to a value**.
+
+
+	arrays methods 
+push -> insert an element to an array
+pop -> remove the last element of the array
+splice -> select the start and the ending
+
+
+How to implement ternary operators??
